@@ -1,0 +1,9 @@
+<!-- slider to indicate % skill -->
+<div *ngFor="let skill of skills" class="py-3 px-4">
+    <h5>
+        {{skill.name}}
+    </h5>        
+    <div class="progress" style="height: 5px;">
+        <div class="progress-bar bg-danger" role="progressbar"  [ngStyle]="{'width': skill.percentage | percent}"></div>
+    </div>
+</div>

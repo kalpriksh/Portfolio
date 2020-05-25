@@ -1,0 +1,12 @@
+<div class="card" style="width: 30%;">
+    <div class="card-body">
+        <h5 class="card-title">
+            {{title}}
+        </h5>
+        <span *ngFor="let tech of techStack"><div>{{tech}}</div></span>
+        <p class="card-text">
+            {{about}}
+        </p>
+    </div>
+    <img src="{{image}}" alt="oops" class="card-img-bottom img-fluid">
+</div>

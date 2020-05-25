@@ -1,0 +1,12 @@
+img{
+    top: -73px;
+    position: absolute;
+    height: 645px;
+    left: 245px;
+}
+
+.welcome-text{
+    text-align: center;
+    margin: 0px 266px 100px 268px;
+    padding: 135px 308px 0px 0px;
+}
