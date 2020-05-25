@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompAComponent implements OnInit {
 
+  intro = 'I am kalpriksh, a full-stack developer in progress, deep learning enthusiast, a lover of good music and a video game addict !'
   constructor() { }
 
   ngOnInit(): void {

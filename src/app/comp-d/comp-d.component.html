@@ -1,0 +1,12 @@
+<div style="height: 65vh; margin:70px 80px 0px 80px; background-color: #EAAD93;" class="">
+    <div class="row">
+        <div class="col-sm info-tags" *ngFor="let item of list; first as isFirst; last as isLast" [ngClass]="{'ml-5': isFirst, 'mr-5': isLast}" >
+            <div class="icon-balls">
+                <i class="fa fa-3x icons" [ngClass]="item"></i>
+            </div>
+            <p class="text mx-3" style="font-family: 'Rancho', cursive; font-size: 20px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias id nisi, exercitationem corporis assumenda? Eaque quas blanditiis laudantium velit
+            </p>
+        </div>
+    </div>
+</div>

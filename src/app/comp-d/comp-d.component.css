@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.info-tags{
+    height: 40vh;
+    margin: 20vh 20px 0px 20px;
+    background-color: #DF2935;
+}
+
+.icon-balls{
+    position: relative;
+    width: 50%;
+    padding-top: 50%;
+    border-radius: 50%;
+    background-color: #EF6351;
+    top: -22%;
+}
+.icons{
+    position: absolute;
+    top: 31%;
+    left: 26%;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    color: whitesmoke;
+    top: 29%;
+}
