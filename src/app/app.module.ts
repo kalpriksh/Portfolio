@@ -9,6 +9,7 @@ import { CompBComponent } from './comp-b/comp-b.component';
 import { CompCComponent } from './comp-c/comp-c.component';
 import { HomeComponent } from './home/home.component';
 import { CompDComponent } from './comp-d/comp-d.component';
+import { CompEComponent } from './comp-e/comp-e.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CompDComponent } from './comp-d/comp-d.component';
     CompBComponent,
     CompCComponent,
     HomeComponent,
-    CompDComponent
+    CompDComponent,
+    CompEComponent
   ],
   imports: [
     BrowserModule,
